@@ -1,0 +1,60 @@
+.sec_large{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.small_sec, .small_sec_2{
+    width: 50%;
+}
+.small_sec_2{
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+.form_div label, input{
+    display: block;
+    margin: 10px;
+}
+input[type=text]{
+width: 70%;
+height: 27px;
+}
+.pwd{
+    display: flex;
+    justify-content: end;
+}
+.submit_btn{
+    width: 70%;
+    height: 32px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    margin: 20px;
+}
+.google_btn{
+    width: 70%;
+    height: 32px;
+    background-color: white;
+}
+@media screen and (max-width:600px){
+   img{
+    width: 30%;
+   }
+   .sec_large{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+}
+@media screen and (min-width:601px)and (max-width: 800px){
+    .sec_large{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+}
+}
